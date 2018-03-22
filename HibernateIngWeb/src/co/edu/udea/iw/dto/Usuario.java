@@ -6,7 +6,7 @@ public class Usuario {
 	private String nombre;
 	private String apellidos;
 	private String contrasena;
-	private String rol;
+	private Rol rol;
 	
 	public Usuario() {
 		
@@ -35,10 +35,10 @@ public class Usuario {
 	public void setContrasena(String contrasena) {
 		this.contrasena = contrasena;
 	}
-	public String getRol() {
+	public Rol getRol() {
 		return rol;
 	}
-	public void setRol(String rol) {
+	public void setRol(Rol rol) {
 		this.rol = rol;
 	}
 	
